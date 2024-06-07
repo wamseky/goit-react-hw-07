@@ -1,0 +1,27 @@
+.number,
+.name {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.name {
+  margin-bottom: 8px;
+}
+
+.btn {
+  display: grid;
+  place-items: center;
+
+  margin-left: auto;
+  height: 31px;
+  padding: 5px 10px;
+  border-radius: 7px;
+  border: 1px solid black;
+  cursor: pointer;
+
+  background-color: #6262ff;
+  color: white;
+  border: transparent;
+  outline: none;
+}
